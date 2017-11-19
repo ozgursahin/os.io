@@ -1,0 +1,14 @@
+Hero Class
+------------------------------------
+export class Hero {
+	id: number;
+	name: string;
+
+	constructor(id, name) {
+		this.id = id;
+		this.name = name;
+	}
+}
+------------------------------------
+hero: Hero = { id: 1, name: 'Windstorm' };
+hero = new Hero(1, 'Windstorm');
