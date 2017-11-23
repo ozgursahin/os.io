@@ -1,32 +1,43 @@
 /* Application-wide Styles */
+
 @font-face {
-  font-family: Spectral;
-  src: url("/assets/fonts/SpectralSC-Regular.ttf")
+	font-family: Spectral;
+	src: url("/assets/fonts/SpectralSC-Regular.ttf")
 }
 
 @font-face {
-  font-family: Roboto;
-  src: url("/assets/fonts/Roboto-Regular.ttf")
+	font-family: Roboto;
+	src: url("/assets/fonts/Roboto-Regular.ttf")
 }
 
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 h1 {
-  color: #369;
-  font-family: Spectral, Arial, Helvetica, sans-serif;
-  font-size: 250%;
+	color: #369;
+	font-family: Spectral, Arial, Helvetica, sans-serif;
+	font-size: 250%;
 }
-h2, h3 {
-  color: #444;
-  font-family: Spectral, Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+
+h2,
+h3 {
+	color: #444;
+	font-family: Spectral, Arial, Helvetica, sans-serif;
+	font-weight: lighter;
 }
+
 body {
-  margin: 2em;
+	margin: 2em;
 }
-body, input[text], button {
-  color: #888;
-  font-family: Cambria, Georgia;
+
+body,
+input[text],
+button {
+	color: #888;
+	font-family: Cambria, Georgia;
 }
+
+
 /* everywhere else */
+
 * {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
 }
