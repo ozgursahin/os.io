@@ -12,3 +12,5 @@ export class Hero {
 ------------------------------------
 hero: Hero = { id: 1, name: 'Windstorm' };
 hero = new Hero(1, 'Windstorm');
+------------------------------------
+ng build -w & nodemon server.js --watch dist --watch server
